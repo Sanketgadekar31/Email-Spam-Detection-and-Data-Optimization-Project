@@ -6,7 +6,6 @@ This Project Identify the spam email from the CSV file that is attatched to it. 
 - #### Identify Which email is spam mail or which email is regular email.
 
 # WorkFlow
-![Screenshot](1.png)
 
 ## Explain
 - First of all we need a data spam mail as well as Normal Email (ham mail). We will use this data to train our model. But we don't do it directly.
@@ -15,12 +14,10 @@ to understand the text or paragraghs et.c So we need to convert out text data in
 - After that we split our data into training data and testing data. As we know the training data we use to Train the model and the test data is used for the
 prediction or evaluate the model.
 
-![Screenshot](2.png)
 
 - So Once we split our Original data into training data and testing data. We will feed to a Logistic regression model. SO the training data used to train the logistic regression
 model. So in this case we use a logistic regression model are the best when it comes to binary classification problem.
 
-![Screenshot](3.png)
 
 - Once we have done this then we have a Trained Logistic regression model. Now then we give a new mail to Logistic regression which is trained one. It will predict weather
 mail is a Spam mail or a normal mail.
